@@ -1,30 +1,25 @@
 {
-  "name": "todo-server",
+  "name": "todo",
   "version": "1.0.0",
-  "description": "Todo Backend",
-  "main": "index.js",
+  "description": "ToDo App",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SudhakaraDalai/Todo-Server.git"
-  },
-  "author": "Sudhakar",
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "sumit kumar",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SudhakaraDalai/Todo-Server/issues"
-  },
-  "homepage": "https://github.com/SudhakaraDalai/Todo-Server#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
-    "config": "^3.3.8",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "express-validator": "^6.14.2",
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.3",
     "nodemon": "^2.0.20"
