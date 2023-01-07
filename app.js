@@ -12,7 +12,7 @@ const app = express();
 const port = 8080;
 let DB = process.env.MONGO_DB_URL;
 // let DB =
-//   "mongodb+srv://sumit:12345@cluster0.tqpgbjd.mongodb.net/ToDoDB?retryWrites=true&w=majority";
+//   "mongodb+srv://sudhakar:sudhakar@cluster0.eo0n8qn.mongodb.net/?retryWrites=true&w=majority";
 mongoose.set("strictQuery", true);
 app.use(bodyparser.json());
 app.use(express.json());
